@@ -2,10 +2,8 @@ use inc::Module::Install;
 
 RTx     'RT-Extension-SearchFields';
 license 'gpl_2';
-repository 'https://github.com/bestpractical/rt-extension-searchfields';
+repository 'https://github.com/NETWAYS/rt-extension-searchfields';
 
-requires_rt '4.2.0';
-rt_too_new '4.6.0';
+requires_rt '6.0.0';
 
-sign;
 WriteAll;

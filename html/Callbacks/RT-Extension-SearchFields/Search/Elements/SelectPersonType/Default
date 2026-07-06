@@ -1,0 +1,8 @@
+<%INIT>
+# Only for the per-ticket Watcher field list, not the Group variant or RT::Assets
+push @{$Types}, 'LastUpdater' if grep { $_ eq 'QueueWatcher' } @{$Types};
+</%INIT>
+<%ARGS>
+$Types => undef
+$Subtypes => undef
+</%ARGS>

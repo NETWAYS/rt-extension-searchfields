@@ -36,7 +36,7 @@ You may also send us an email to [support@netways.de](mailto:support@netways.de)
 
 ## Requirements
 
-- RT 4.4.2
+- RT 6.0
 - RT with MySQL database
 
 ## Installation
@@ -54,7 +54,7 @@ make install
 Clear your mason cache.
 
 ```
-rm -rf /opt/rt4/var/mason_data/obj
+rm -rf /opt/rt/var/mason_data/obj
 ```
 
 Restart your web server.

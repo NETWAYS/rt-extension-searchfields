@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::SearchFields;
 
-our $VERSION = '1.0.0';
+our $VERSION = '2.0.0';
 
 =head1 NAME
 
@@ -15,7 +15,7 @@ ticket sql query language: LastUpdater (User) and LastUpdater.* fields.
 
 =head1 RT VERSION
 
-Works with RT 4.4.2
+Works with RT 6.0
 
 =head1 INSTALLATION
 
@@ -29,7 +29,7 @@ Works with RT 4.4.2
 
 May need root permissions
 
-=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
+=item Edit your F</opt/rt/etc/RT_SiteConfig.pm>
 
 Add this line:
 
@@ -37,7 +37,7 @@ Add this line:
 
 =item Clear your mason cache
 
-    rm -rf /opt/rt4/var/mason_data/obj
+    rm -rf /opt/rt/var/mason_data/obj
 
 =item Restart your webserver
 

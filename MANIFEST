@@ -11,6 +11,7 @@ inc/Module/Install/RTx/Runtime.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 inc/YAML/Tiny.pm
+html/Callbacks/RT-Extension-SearchFields/Search/Elements/SelectPersonType/Default
 lib/RT/Extension/SearchFields.pm
 lib/RT/Tickets_Local.pm
 Makefile.PL

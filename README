@@ -7,7 +7,7 @@ DESCRIPTION
     fields.
 
 RT VERSION
-    Works with RT 4.4.2
+    Works with RT 6.0
 
 INSTALLATION
     perl Makefile.PL
@@ -15,13 +15,13 @@ INSTALLATION
     make install
         May need root permissions
 
-    Edit your /opt/rt4/etc/RT_SiteConfig.pm
+    Edit your /opt/rt/etc/RT_SiteConfig.pm
         Add this line:
 
             Plugin('RT::Extension::SearchFields');
 
     Clear your mason cache
-            rm -rf /opt/rt4/var/mason_data/obj
+            rm -rf /opt/rt/var/mason_data/obj
 
     Restart your webserver
 
