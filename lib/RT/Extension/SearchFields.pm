@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::SearchFields;
 
-our $VERSION = '0.9.0';
+our $VERSION = '1.0.0';
 
 =head1 NAME
 
